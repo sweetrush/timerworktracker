@@ -1,13 +1,44 @@
+# Application Development Overview
 
-THis is the understanding of the application to develop 
+## Technology Stack
+- **Backend**: PHP Programming Language
+- **Webserver**: Lighttpd service
+- **Data Storage**: JSON files for persistent storage
 
-[Technology]
-- PHP Programming Language 
-- Lighttpd Webserver service 
+## Core Functionality
+- Timer application with start/stop functionality
+- Automatic popup dialog when timer stops to:
+  - Record work notes
+  - Capture task details
+- Data persistence:
+  - Store timer sessions and notes in JSON format
+  - Track work history and time spent per task
 
-[What to build]
-- Develop a Application that will have a timer with a start and stop button 
-- Note the every time the timer stops a dialog box will pop to allow the user to add notes of the work been done. 
-- THen store the information in a JSON file to track what work has been done 
-- this will help a user to track the time and activities for a project when working on it. 
-- Use a Reponsive UI and a Good and userfriendly setup. 
+## User Interface Requirements
+- Responsive design that works across devices
+- Intuitive and user-friendly interface
+- Clean, minimalistic design focused on functionality
+
+## Technical Implementation Details
+- Timer logic with precision time tracking
+- JSON data structure:
+  ```json
+  {
+    "sessions": [
+      {
+        "start_time": "timestamp",
+        "end_time": "timestamp",
+        "duration": "seconds",
+        "notes": "string",
+        "task": "string"
+      }
+    ]
+  }
+  ```
+- File system operations for reading/writing JSON
+
+## Future Enhancements
+- Reporting and analytics features
+- Project/task categorization
+- Data export capabilities
+- Multi-user support

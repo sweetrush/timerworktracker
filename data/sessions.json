@@ -1,0 +1,27 @@
+[
+    {
+        "duration": 19,
+        "notes": "Create a new file to work",
+        "timestamp": "2025-05-31T02:23:37.781Z",
+        "formatted_duration": "00:00:19"
+    },
+    {
+        "duration": 25,
+        "notes": "Reviewing of Documents and Support Information",
+        "timestamp": "2025-05-31T02:27:50.194Z",
+        "formatted_duration": "00:00:25"
+    },
+    {
+        "duration": 9,
+        "notes": "This was the first testing of this new app",
+        "timestamp": "2025-05-31T03:38:20.542Z",
+        "formatted_duration": "00:00:09"
+    },
+    {
+        "duration": 34,
+        "notes": "Working on Analysising the Documents and work related parts of the elemtns",
+        "tag": "Project MAF Work",
+        "timestamp": "2025-05-31T03:48:20.674Z",
+        "formatted_duration": "00:00:34"
+    }
+]
